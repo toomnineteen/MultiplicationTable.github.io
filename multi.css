@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mali', cursive;
+    
+    
+}
+body{
+    height: 100vh;
+    width: auto;
+    background-color: #2222;
+}
+.box1{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box1 p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.box1 input{
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+}
+.box1 button{
+    height: 30px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+input , button :focus{
+    outline: none;
+}
+#out_Put p{
+    margin: 15px 0px;
+    border-bottom: 1px solid black;
+    width: 200px;
+}
